@@ -1,0 +1,184 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #000;
+}
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    /* background-color: #000; */
+}
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    list-style-type: none;
+    flex-wrap: wrap;
+}
+ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 100;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fff;
+}
+ul li a:hover{
+  border-bottom: 2px solid yellow;
+}
+.logo .logo_img{
+    width: 80%;
+}
+.btn{
+    background-color: #fff;
+    padding: 10px 20px;
+    font-weight: 200;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    border-radius: 25px;
+    align-items: center;
+    display: flex;
+    gap: 5px;
+
+}
+.btn img{
+    background: none;
+    width: 20%;
+}
+.btn:hover{
+    opacity: 0.9;
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color: #000; */
+}
+.artical{
+   padding: 0% 0% 0% 10%;
+}
+.content{
+    padding: 0% 0% 5% 0%;
+    flex-wrap: wrap;
+}
+.content .home{
+    width:60%;
+}
+.para{
+    color: #fff;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.hello{
+    color: #fff;
+    font-size: 20px;
+    font-style: italic;
+}
+.heading{
+    font-size: 4rem;
+    color: #fff;
+    font-weight: 500;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.btn_btns{
+    margin-top: 20px;
+}
+.writing{
+    text-align: center;
+    padding: 0% 0% 2% 0%;
+    margin: 0% 23%;
+}
+
+
+/* riban */
+
+ .box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    background-color: #666;
+    position: relative;
+    width: 50%;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 10px;
+ }
+ .box_img img{
+    width: 80px;
+    background-color: #666;
+ }
+ .portfolio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+ }
+ .portfolio_img img{
+    width: 300px;
+    margin: 10px;
+ }
+ .gallery{
+    margin: 30px auto;
+ }
+ .adobe{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+ }
+ .facebook img{
+    width: 300px;
+    margin: 10px;
+ }
+
+ /* footer */
+ .footer-main{
+    padding: 20px;
+}
+.footer-container{
+    margin-left: 10%;
+    margin-right: 10%;
+   padding-left: 10%;
+   padding-right: 10%;
+}
+.footer-content{
+    padding: 10px;
+}
+.footer-content input,textarea {
+    width: 100%;
+    background-color: gray;
+    opacity: 0.3;
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 20px;
+    color:white;
+    transition: 2s;
+}
+/* .footer-content input:hover,textarea:hover{
+    box-shadow: 2px 2px 10px 10px white;
+} */
+/* .footer-content .btn-footer{
+    border: none;
+    background-color:crimson;
+    padding: 10px;
+    /* width: 50%; 
+   font-size: 20px;
+   color: white;
+   border-radius: 5px;
+   cursor: pointer;
+   transition: 1s;
+} */
+.footer-content .btn-footer{
+   margin: 0px auto;
+}
+
+
+ .youtube img{
+    width: 50px;
+ }
